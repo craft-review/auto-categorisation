@@ -22,10 +22,10 @@ os.environ["OPENAI_API_KEY"] = ""
 
 # Define a prompt template
 prompt_template = """
-Categorize the following transaction based on the user's previous preferences:
+You are CategorizePro - Categorize and restrict the following transaction based on the user's previous preferences:
 Transaction: {transaction}
 User preferences: {user_categories}
-Provide only the best category name for this transaction without any explanation.
+Provide only the best category name for this transaction without any explanation. If nothing matches, then categorize it as 'Other'
 """
 
 # Set up LangChain's prompt template system
@@ -67,11 +67,17 @@ def generate_category(transaction_desc, user_categories=None):
     )
     if hasattr(response, 'content'):
         # print(response)
-        print(response.usage_metadata)
+        # print(response.usage_metadata)
         # AIMessage(content="J'adore la programmation.", additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 5, 'prompt_tokens': 31, 'total_tokens': 36}, 'model_name': 'gpt-4o-2024-05-13', 'system_fingerprint': 'fp_3aa7262c27', 'finish_reason': 'stop', 'logprobs': None}, id='run-63219b22-03e3-4561-8cc4-78b7c7c3a3ca-0', usage_metadata={'input_tokens': 31, 'output_tokens': 5, 'total_tokens': 36})
-        return response.content.strip()
+        content = response.content.strip()
     else:
-        return response.strip()
+        content = response.strip()
+    
+    # Assuming the response contains token usage information in the same format
+    total_tokens = response.response_metadata['token_usage']['total_tokens']
+    model_name = response.response_metadata['model_name']
+    
+    return content, total_tokens, model_name
     # return response.strip()
     
     # Execute the LLM chain

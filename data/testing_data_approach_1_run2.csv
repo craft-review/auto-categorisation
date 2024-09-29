@@ -1,21 +1,24 @@
 TransactionID,UserID,Description,Amount,Category,PersonalizedCategory,ProbableCategory
-T002,U002,Paid electricity bill,398.71,Utilities,Power Bill,Power Bill
-T006,U001,Hotel stay for business trip,54.22,Hotel,Lodging,Lodging
-T007,U002,Shipped product to customer,495.98,Shipping and Delivery,Freight Costs,Customer Delivery
-T010,U005,Business trip flight,4421.33,Travel,Airfare,Travel Expenses
-T014,U004,Shipped product to customer,2265.39,Shipping and Delivery,Distribution Costs,Distribution Costs
-T036,U001,Gas for company car,3239.01,Fuel,Automobile Fuel,Automobile Fuel
-T038,U003,Uber ride,4500.83,Transportation,Ride Service Expense,Ride Service Expense
-T040,U005,Paid consulting invoice,3921.11,Consulting,Professional Consulting,Professional Consulting
+T006,U001,Hotel stay for business trip,54.22,Hotel,Lodging,Lodging Expense
+T007,U002,Shipped product to customer,495.98,Shipping and Delivery,Freight Costs,Parcel Shipment
+T010,U005,Business trip flight,4421.33,Travel,Airfare,Executive Travel
+T014,U004,Shipped product to customer,2265.39,Shipping and Delivery,Distribution Costs,Customer Freight
+T036,U001,Gas for company car,3239.01,Fuel,Automobile Fuel,Company Vehicle Fuel
+T037,U002,Paid electricity bill,482.37,Utilities,Energy Bill,Power Bill
+T038,U003,Uber ride,4500.83,Transportation,Ride Service Expense,Rideshare Fare
+T039,U004,Subscription to accounting software,4651.81,Software and Tools,Bookkeeping Software,Software Renewal
 T042,U002,Sales tax payment,2423.53,Sales Tax,VAT Payment,Business Tax
-T047,U002,Shipped product to customer,4491.55,Shipping and Delivery,Logistics Costs,Customer Delivery
-T057,U002,Paid corporate income taxes,410.06,Income Tax,Business Tax,Business Tax
-T059,U004,Team building event cost,4973.0,Employee Benefits,Staff Event,Staff Event
-T068,U003,Business trip flight,1612.98,Travel,Air Travel,Air Travel
-T069,U004,Website redesign,304.28,Professional Services,Website Update,Website Update
-T072,U002,Paid loan interest,1897.85,Loan Payments,Interest Charges,Interest Charges
-T073,U003,Employee travel reimbursement,779.06,Reimbursements,Travel Refund,Travel Refund
-T076,U001,Phone service bill,1724.93,Telecommunications,Phone Bill,Phone Bill
-T083,U003,Paid corporate income taxes,1550.26,Income Tax,Company Tax,Company Tax
-T087,U002,Shipped product to customer,3131.01,Shipping and Delivery,Customer Delivery,Customer Delivery
-T093,U003,Monthly office rent,2299.9,Rent or Mortgage,Business Rent,Business Rent
+T055,U005,Paid consulting invoice,390.56,Consulting,Consultant Invoice,Professional Consulting
+T057,U002,Paid corporate income taxes,410.06,Income Tax,Business Tax,Corporate Tax
+T059,U004,Team building event cost,4973.0,Employee Benefits,Staff Event,Team Event Costs
+T063,U003,Car rental for business,4699.12,Transportation,Rental Car Expense,Corporate Travel
+T068,U003,Business trip flight,1612.98,Travel,Air Travel,Corporate Travel
+T069,U004,Website redesign,304.28,Professional Services,Website Update,Digital Redesign
+T072,U002,Paid loan interest,1897.85,Loan Payments,Interest Charges,Interest Payments
+T073,U003,Employee travel reimbursement,779.06,Reimbursements,Travel Refund,Travel Expense Reimbursement
+T075,U005,Sales tax payment,1597.58,Sales Tax,Sales Tax Payment,Tax Payment
+T076,U001,Phone service bill,1724.93,Telecommunications,Phone Bill,Mobile Services
+T079,U004,Product prototype development cost,1847.55,Research and Development,Product Testing,Learning and Development
+T083,U003,Paid corporate income taxes,1550.26,Income Tax,Company Tax,Corporate Income Tax
+T089,U004,Shipping fee for customer order,2217.33,Shipping and Delivery,Customer Freight,Distribution Costs
+T093,U003,Monthly office rent,2299.9,Rent or Mortgage,Business Rent,Office Rent

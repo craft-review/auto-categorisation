@@ -29,4 +29,14 @@ def store_user_probable_category(csv_file, user_id, transaction_desc, category):
     else:
         print("No matching record found for UserID:", user_id, "Description:", transaction_desc)
 
-
+def move_non_matching_categories(csv_file, output_file):
+    # Load the CSV into a DataFrame
+    df = pd.read_csv(csv_file)
+    
+    # Filter rows where PersonalizedCategory does not match ProbableCategory
+    non_matching_df = df[df['PersonalizedCategory'] != df['ProbableCategory']]
+    
+    # Save the filtered DataFrame to a new CSV
+    non_matching_df.to_csv(output_file, index=False)
+    
+    print(f"Non-matching categories have been moved to {output_file}")
