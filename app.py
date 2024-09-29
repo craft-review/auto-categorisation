@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env
 
 # Load CSV data (or create if it doesn't exist)
-csv_file = 'data/testing_data_approach_1.csv'
+csv_file = 'data/testing_data_approach_1_run1.csv'
 
 # UI based Categorization
 # User input for transaction and user ID
@@ -21,9 +21,11 @@ if st.button("Generate Category"):
     print(user_personal_categories)
     
     # Generate a category using the LLM
-    category = generate_category(transaction_desc, user_personal_categories)
+    category, total_tokens, model_name = generate_category(transaction_desc, user_personal_categories)
     
     st.write(f"Suggested Category: {category}")
     
     store_user_probable_category(csv_file, user_id, transaction_desc, category)
+
+    print("Tokens:", total_tokens, ", Model:", model_name)
 
