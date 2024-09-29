@@ -1,0 +1,19 @@
+TransactionID,UserID,Description,Amount,Category,PersonalizedCategory,ProbableCategory
+T007,U002,Customer product shipment charges,495.98,Shipping and Delivery,Freight Costs,Parcel Shipment
+T014,U004,Charges for shipping goods to clients,2265.39,Shipping and Delivery,Distribution Costs,Customer Freight
+T032,U002,Shipping costs for customer products,848.26,Shipping and Delivery,Parcel Shipment,Logistics Costs
+T036,U001,Gas refill for business car,3239.01,Fuel,Automobile Fuel,Company Vehicle Fuel
+T038,U003,Rideshare service payment,4500.83,Transportation,Ride Service Expense,Rideshare Fare
+T040,U005,Consultant invoice paid,3921.11,Consulting,Professional Consulting,Consultant Invoice
+T047,U002,Freight costs for customer shipments,4491.55,Shipping and Delivery,Logistics Costs,Freight Costs
+T053,U003,Company income tax paid,4466.77,Income Tax,Corporate Income Tax,Company Tax
+T055,U005,Consulting fee settlement,390.56,Consulting,Consultant Invoice,Professional Consulting
+T057,U002,Paid corporate tax liability,410.06,Income Tax,Business Tax,Corporate Tax
+T059,U004,Team building event costs,4973.0,Employee Benefits,Staff Event,Team Event Costs
+T060,U005,Airfare for corporate travel,2891.58,Travel,Executive Travel,Airfare
+T068,U003,Flight ticket for work purposes,1612.98,Travel,Air Travel,Corporate Travel
+T069,U004,Website overhaul charges,304.28,Professional Services,Website Update,Digital Redesign
+T072,U002,Business loan interest payment,1897.85,Loan Payments,Interest Charges,Interest Payments
+T083,U003,Paid corporate tax bill,1550.26,Income Tax,Company Tax,Corporate Income Tax
+T085,U005,Office supplies shipping charges,4143.37,Shipping and Delivery,Hardware Shipment,Business Accommodation
+T093,U003,Office rent payment,2299.9,Rent or Mortgage,Business Rent,Office Rent

@@ -1,0 +1,101 @@
+TransactionID,Description,Amount,Category,PersonalizedCategory
+T001,Shipped product to customer,1737.08,Payroll,Salaries
+T002,Miscellaneous business expense,1923.6,Advertising,Advertisements
+T003,Miscellaneous business expense,1829.48,Telecommunications,Internet Services
+T004,Gas for company car,977.22,Telecommunications,Internet Services
+T005,Social media marketing campaign,1919.25,Bank Charges,Service Fees
+T006,Paid employee health benefits,256.61,Training,Employee Training
+T007,Paid corporate income taxes,626.69,Payroll,Salaries
+T008,Shipped product to customer,242.52,Shipping,Delivery
+T009,Paid electricity bill,816.47,Meals and Entertainment,Dining
+T010,Monthly office rent,713.85,Rent,Building Rent
+T011,Service charge for wire transfer,123.48,Shipping,Delivery
+T012,Paid corporate income taxes,1657.26,Telecommunications,Internet Services
+T013,Flight tickets for client visit,216.4,Subscription,Recurring Fees
+T014,Health insurance payment,1435.7,Loan Payment,Loan Installment
+T015,Gas for company car,1242.24,Employee Benefits,Employee Perks
+T016,Paid corporate income taxes,1308.42,Miscellaneous,Misc
+T017,Social media marketing campaign,952.1,Miscellaneous,Misc
+T018,Payroll for employees,878.87,Fuel,Fuel Costs
+T019,Gas for company car,234.83,Consulting Services,Advisory Services
+T020,Accounting software subscription,404.88,Insurance,Insurance Premiums
+T021,Flight tickets for client visit,1680.04,Office Supplies,Stationery
+T022,Service charge for wire transfer,1011.19,Travel,Trips
+T023,Monthly cloud software subscription,392.54,Rent,Building Rent
+T024,Paid electricity bill,1353.7,Rent,Building Rent
+T025,Social media marketing campaign,1966.71,Employee Benefits,Employee Perks
+T026,Paid electricity bill,425.91,Meals and Entertainment,Dining
+T027,Car loan repayment,1189.22,Shipping,Delivery
+T028,Gas for company car,355.81,Credit Card Payment,Credit Payment
+T029,Shipped product to customer,333.75,Shipping,Delivery
+T030,Monthly cloud software subscription,1227.89,Telecommunications,Internet Services
+T031,Paid employee health benefits,1039.56,Shipping,Delivery
+T032,Payroll for employees,399.14,Bank Charges,Service Fees
+T033,Office building repairs,1579.59,Repairs and Maintenance,Fixes
+T034,Miscellaneous business expense,1708.45,Rent,Building Rent
+T035,Paid employee health benefits,1975.43,Employee Benefits,Employee Perks
+T036,Monthly cloud software subscription,1704.93,Subscription,Recurring Fees
+T037,Health insurance payment,1322.84,Credit Card Payment,Credit Payment
+T038,Shipped product to customer,1469.54,Rent,Building Rent
+T039,Payroll for employees,913.78,Repairs and Maintenance,Fixes
+T040,Gas for company car,306.0,Travel,Trips
+T041,Payroll for employees,1612.65,Consulting Services,Advisory Services
+T042,Paid corporate income taxes,600.54,Travel,Trips
+T043,Gas for company car,1795.97,Loan Payment,Loan Installment
+T044,Office building repairs,686.61,Advertising,Advertisements
+T045,Paid electricity bill,889.69,Employee Benefits,Employee Perks
+T046,Paid corporate income taxes,261.95,Credit Card Payment,Credit Payment
+T047,Paid electricity bill,1601.66,Telecommunications,Internet Services
+T048,Legal fee for contract review,269.37,Payroll,Salaries
+T049,Flight tickets for client visit,1369.46,Consulting Services,Advisory Services
+T050,Health insurance payment,352.79,Marketing,Campaigns
+T051,Mobile phone and internet bill,1746.01,Software,Apps
+T052,Flight tickets for client visit,1085.09,Miscellaneous,Misc
+T053,Shipped product to customer,1295.77,Meals and Entertainment,Dining
+T054,Social media marketing campaign,1582.87,Utilities,Utility Payments
+T055,Car loan repayment,567.52,Utilities,Utility Payments
+T056,Flight tickets for client visit,354.4,Taxes,Government Fees
+T057,Legal fee for contract review,635.0,Miscellaneous,Misc
+T058,Purchased office chairs,339.32,Consulting Services,Advisory Services
+T059,Gas for company car,96.5,Meals and Entertainment,Dining
+T060,Consulting service fee,303.52,Professional Services,Consultancy
+T061,Mobile phone and internet bill,1977.26,Credit Card Payment,Credit Payment
+T062,Monthly cloud software subscription,1431.82,Insurance,Insurance Premiums
+T063,Flight tickets for client visit,1297.59,Advertising,Advertisements
+T064,Monthly cloud software subscription,486.12,Rent,Building Rent
+T065,Car loan repayment,417.48,Loan Payment,Loan Installment
+T066,Health insurance payment,298.13,Office Supplies,Stationery
+T067,Monthly cloud software subscription,1078.11,Bank Charges,Service Fees
+T068,Monthly cloud software subscription,1633.58,Miscellaneous,Misc
+T069,Car loan repayment,1790.41,Shipping,Delivery
+T070,Accounting software subscription,253.38,Subscription,Recurring Fees
+T071,Shipped product to customer,1501.85,Marketing,Campaigns
+T072,Service charge for wire transfer,270.36,Advertising,Advertisements
+T073,Accounting software subscription,558.41,Bank Charges,Service Fees
+T074,Accounting software subscription,1548.78,Loan Payment,Loan Installment
+T075,Credit card balance payment,215.58,Professional Services,Consultancy
+T076,Flight tickets for client visit,1313.95,Bank Charges,Service Fees
+T077,Flight tickets for client visit,1052.81,Taxes,Government Fees
+T078,Accounting software subscription,1364.34,Marketing,Campaigns
+T079,Monthly office rent,556.5,Loan Payment,Loan Installment
+T080,Shipped product to customer,1577.76,Subscription,Recurring Fees
+T081,Social media marketing campaign,1760.54,Miscellaneous,Misc
+T082,Google Ads campaign,1432.4,Meals and Entertainment,Dining
+T083,Payroll for employees,1767.33,Office Supplies,Stationery
+T084,Health insurance payment,1665.92,Advertising,Advertisements
+T085,Flight tickets for client visit,1150.48,Utilities,Utility Payments
+T086,Legal fee for contract review,1337.66,Consulting Services,Advisory Services
+T087,Employee training session,1742.94,Rent,Building Rent
+T088,Employee training session,315.15,Taxes,Government Fees
+T089,Monthly cloud software subscription,1553.34,Miscellaneous,Misc
+T090,Paid employee health benefits,125.66,Employee Benefits,Employee Perks
+T091,Miscellaneous business expense,1007.49,Office Supplies,Stationery
+T092,Office building repairs,1255.5,Legal Services,Law Services
+T093,Monthly cloud software subscription,1226.65,Employee Benefits,Employee Perks
+T094,Paid corporate income taxes,346.94,Telecommunications,Internet Services
+T095,Lunch with client,1131.86,Rent,Building Rent
+T096,Consulting service fee,1009.89,Subscription,Recurring Fees
+T097,Google Ads campaign,1706.27,Marketing,Campaigns
+T098,Flight tickets for client visit,1097.96,Travel,Trips
+T099,Mobile phone and internet bill,995.78,Credit Card Payment,Credit Payment
+T100,Employee training session,422.74,Training,Employee Training

@@ -1,0 +1,101 @@
+TransactionID,Description,Amount,Category
+T001,Business trip flight,232.67,Travel
+T002,Paid electricity bill,398.71,Utilities
+T003,Paid property tax,2945.51,Property Tax
+T004,Online course enrollment,4600.92,Education
+T005,Paid parking ticket,335.29,Tolls
+T006,Hotel stay for business trip,54.22,Hotel
+T007,Shipped product to customer,495.98,Shipping and Delivery
+T008,Salaries for contractors,2016.05,Contractor Payments
+T009,Consulting service fee,3847.24,Consulting
+T010,Business trip flight,4421.33,Travel
+T011,IT equipment maintenance,1947.65,Repairs
+T012,Online course enrollment,1235.4,Education
+T013,Employee travel reimbursement,3754.54,Employee Benefits
+T014,Shipped product to customer,2265.39,Shipping and Delivery
+T015,Paid legal fees,4263.44,Legal Fees
+T016,Phone service bill,3900.27,Telecommunications
+T017,Paid employee healthcare benefits,2210.64,Employee Benefits
+T018,Business trip flight,4106.15,Travel
+T019,Dinner meeting,2412.72,Meals and Entertainment
+T020,Purchased office chairs,216.08,Office Supplies
+T021,Paid electricity bill,2812.61,Utilities
+T022,Paid corporate income taxes,958.91,Income Tax
+T023,Subscription to accounting software,264.43,Software and Tools
+T024,Hotel stay for business trip,3255.98,Hotel
+T025,Product prototype development cost,2211.03,Research and Development
+T026,Gas for company car,1771.25,Fuel
+T027,Paid loan interest,4174.11,Loan Payments
+T028,Uber ride,296.23,Transportation
+T029,Sales tax payment,3604.55,Sales Tax
+T030,Hotel stay for business trip,2409.73,Hotel
+T031,Reimbursement for business lunch,3609.73,Reimbursements
+T032,Shipped product to customer,848.26,Shipping and Delivery
+T033,Renewed annual business insurance,4215.56,Insurance
+T034,Gas for company car,197.32,Fuel
+T035,Salaries for contractors,4691.77,Contractor Payments
+T036,Gas for company car,3239.01,Fuel
+T037,Paid electricity bill,482.37,Utilities
+T038,Uber ride,4500.83,Transportation
+T039,Subscription to accounting software,4651.81,Software and Tools
+T040,Paid consulting invoice,3921.11,Consulting
+T041,Shipped office equipment,2974.11,Shipping and Delivery
+T042,Sales tax payment,2423.53,Sales Tax
+T043,IT equipment maintenance,1918.46,Repairs
+T044,Salaries for contractors,2603.74,Contractor Payments
+T045,Paid loan interest,1295.43,Loan Payments
+T046,Dinner meeting,4270.45,Meals and Entertainment
+T047,Shipped product to customer,4491.55,Shipping and Delivery
+T048,Consulting service fee,1942.51,Consulting
+T049,Office building cleaning service,770.79,Cleaning Services
+T050,Subscription to accounting software,4399.75,Software and Tools
+T051,Business workshop attendance fee,3036.61,Education
+T052,Client gift,3797.79,Gifts
+T053,Paid corporate income taxes,4466.77,Income Tax
+T054,Paid loan interest,522.44,Loan Payments
+T055,Paid consulting invoice,390.56,Consulting
+T056,Sales tax payment,2628.13,Sales Tax
+T057,Paid corporate income taxes,410.06,Income Tax
+T058,Reimbursement for business lunch,4043.04,Reimbursements
+T059,Team building event cost,4973,Employee Benefits
+T060,Business trip flight,2891.58,Travel
+T061,Paid parking ticket,3001.96,Tolls
+T062,Product prototype development cost,654.84,Research and Development
+T063,Car rental for business,4699.12,Transportation
+T064,IT equipment maintenance,1267.87,Repairs
+T065,Gas for company car,260.36,Fuel
+T066,Subscription to accounting software,3375.27,Software and Tools
+T067,Paid employee wages,1554.05,Employee Salaries
+T068,Business trip flight,1612.98,Travel
+T069,Website redesign,304.28,Professional Services
+T070,Car rental for business,4340.5,Transportation
+T071,Credit card balance payment,2351.53,Credit Card Payment
+T072,Paid loan interest,1897.85,Loan Payments
+T073,Employee travel reimbursement,779.06,Reimbursements
+T074,Paid electricity bill,1472.9,Utilities
+T075,Sales tax payment,1597.58,Sales Tax
+T076,Phone service bill,1724.93,Telecommunications
+T077,Shipping fee for customer order,3229.41,Shipping and Delivery
+T078,Monthly office rent,3497.19,Rent or Mortgage
+T079,Product prototype development cost,1847.55,Research and Development
+T080,Credit card balance payment,238.07,Credit Card Payment
+T081,Hotel stay for business trip,730.77,Hotel
+T082,Monthly office rent,304.1,Rent or Mortgage
+T083,Paid corporate income taxes,1550.26,Income Tax
+T084,Website redesign,3926.01,Professional Services
+T085,Shipped office equipment,4143.37,Shipping and Delivery
+T086,Legal consultation fee,4851.05,Legal Fees
+T087,Shipped product to customer,3131.01,Shipping and Delivery
+T088,Business workshop attendance fee,1407.58,Education
+T089,Shipping fee for customer order,2217.33,Shipping and Delivery
+T090,Dinner meeting,1711.73,Meals and Entertainment
+T091,Paid employee healthcare benefits,2910.67,Employee Benefits
+T092,Bought office supplies,1469.19,Office Supplies
+T093,Monthly office rent,2299.9,Rent or Mortgage
+T094,Team building event cost,2922.68,Employee Benefits
+T095,Paid income tax,2758.57,Income Tax
+T096,Lunch with client,2234.21,Meals and Entertainment
+T097,Hotel stay for business trip,3856.69,Hotel
+T098,Vendor payment,2131.83,Vendor Payments
+T099,Renewed software license,4490.86,Software and Tools
+T100,Shipped product to customer,1841.97,Shipping and Delivery
