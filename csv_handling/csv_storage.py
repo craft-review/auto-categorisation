@@ -25,7 +25,7 @@ def store_user_probable_category(csv_file, user_id, transaction_desc, category):
         # Update the ProbableCategory in the same row
         df.loc[mask, 'ProbableCategory'] = category
         df.to_csv(csv_file, index=False)
-        print("ProbableCategory updated for UserID:", user_id, ", Description:", transaction_desc, ", ProbableCategory", category)
+        print("ProbableCategory updated for UserID:", user_id, ", Description:", transaction_desc, ", ProbableCategory:", category)
     else:
         print("No matching record found for UserID:", user_id, "Description:", transaction_desc)
 

@@ -46,7 +46,7 @@ prompt = ChatPromptTemplate.from_template(prompt_template)
 # Initialize OpenAI LLM via LangChain (Choose the desired model)
 # llm = OpenAI(model_name="text-davinci-003", temperature=0.5)
 # llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0.5, max_tokens=50)
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=1, max_tokens=50, max_retries=1, verbose=True)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, max_tokens=50, max_retries=1, verbose=True)
 
 # Create a chain combining the prompt and LLM
 # llm_chain = LLMChain(llm=llm, prompt=prompt)
