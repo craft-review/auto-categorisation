@@ -26,7 +26,7 @@ def update_all_probable_categories(csv_file):
         
         # Call the function to update the category
         store_user_probable_category(csv_file, user_id, description, probable_category)
-    total_cost = (total_tokens_used / 1000) * cost_per_1000_tokens
+    total_cost = (total_tokens_used / 1000) * .03
     print(total_cost)
 
 update_all_probable_categories(csv_file)
