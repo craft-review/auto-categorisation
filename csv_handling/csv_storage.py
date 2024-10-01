@@ -17,7 +17,6 @@ def create_map_user_preferred_category(user_category_file):
     
     # Convert defaultdict to a regular dictionary if needed
     hashmap = dict(hashmap)
-    
     return hashmap
 
 # Load CSV containing personalized categories
