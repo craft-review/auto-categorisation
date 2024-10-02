@@ -20,11 +20,6 @@ output_csv_file = 'approach_using_LLM_FAISS/data/processed/testing_data_approach
 difference = 'approach_using_LLM_FAISS/data/recon/testing_data_approach_3_run1_mismatch.csv'
 threshold = 1
 
-load_dotenv()  # take environment variables from .env (especially openai api key)
-# Set up OpenAI API Key
-os.environ["OPENAI_API_KEY"] = "sk-LIU9UKyk6eu73PZ_r35pEkMG63j5CUJ9JcZka87ISGT3BlbkFJtiQssnl7iFiBN8qU4IIHIaWwWB0N_AoFszJ_HDe-0A"
-
-
 # Initialize the encoder
 encoder = SentenceTransformer("all-mpnet-base-v2")
 user_category = create_map_user_preferred_category(user_category_file)
@@ -98,7 +93,6 @@ def search_in_user_pickle(user_id, category_vector):
 
     # Perform the search in the FAISS index
     distances, indices = faiss_index.search(category_vector, 1)
-
     return distances, indices
 
 def get_matched_category(user_id, matched_index):
@@ -109,7 +103,6 @@ def get_matched_category(user_id, matched_index):
 
     # Retrieve the category corresponding to the matched_index
     matched_category = categories[matched_index]
-
     return matched_category
 
 def update_all_personalised_categories(csv_file):
