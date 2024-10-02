@@ -4,10 +4,10 @@ import pandas as pd
 import json
 
 # Generate user category from the CSV file
-user_category_file = 'data/user_category.json'
-csv_file = 'data/input/testing_data_approach_2_run1.csv'
-output_csv_file = 'data/processed/testing_data_approach_2_run1_output.csv'
-difference = 'data/recon/testing_data_approach_2_run1_mismatch.csv'
+user_category_file = 'approach_using_LLM/data/user_category.json'
+csv_file = 'approach_using_LLM/data/input/testing_data_approach_2_run1.csv'
+output_csv_file = 'approach_using_LLM/data/processed/testing_data_approach_2_run1_output.csv'
+difference = 'approach_using_LLM/data/recon/testing_data_approach_2_run1_mismatch.csv'
 
 user_category = create_map_user_preferred_category(user_category_file)
 

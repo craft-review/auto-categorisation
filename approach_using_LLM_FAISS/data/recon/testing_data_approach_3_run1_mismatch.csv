@@ -1,0 +1,36 @@
+TransactionID,UserID,Description,Amount,Category,PersonalisedCategory
+T004,U004,Online course enrollment,4600.92,Education,Education Expenses
+T007,U002,Shipped product to customer,495.98,Shipping and Delivery,Sales Revenue
+T008,U003,Salaries for contractors,2016.05,Contractor Payments,Contractor Expenses
+T009,U004,Consulting service fee,3847.24,Consulting,Service Revenue
+T012,U002,Online course enrollment,1235.4,Education,Education Expenses
+T014,U004,Shipped product to customer,2265.39,Shipping and Delivery,Sales Revenue
+T017,U002,Paid employee healthcare benefits,2210.64,Employee Benefits,Employee Benefits Expense
+T020,U005,Purchased office chairs,216.08,Office Supplies,Office Equipment
+T024,U004,Hotel stay for business trip,3255.98,Hotel,Travel Expenses
+T025,U005,Product prototype development cost,2211.03,Research and Development,Research and Development Expenses
+T026,U001,Gas for company car,1771.25,Fuel,Vehicle Expenses
+T032,U002,Shipped product to customer,848.26,Shipping and Delivery,Sales Revenue
+T035,U005,Salaries for contractors,4691.77,Contractor Payments,Contractor Expenses
+T036,U001,Gas for company car,3239.01,Fuel,Vehicle Expenses
+T041,U001,Shipped office equipment,2974.11,Shipping and Delivery,Office Equipment Expense
+T047,U002,Shipped product to customer,4491.55,Shipping and Delivery,Sales Revenue
+T048,U003,Consulting service fee,1942.51,Consulting,Professional Services Revenue
+T049,U004,Office building cleaning service,770.79,Cleaning Services,Cleaning Expense
+T050,U005,Subscription to accounting software,4399.75,Software and Tools,Software Subscription Expense
+T056,U001,Sales tax payment,2628.13,Sales Tax,Tax Expense
+T059,U004,Team building event cost,4973.0,Employee Benefits,Employee Training and Development
+T061,U001,Paid parking ticket,3001.96,Tolls,Miscellaneous Expenses
+T066,U001,Subscription to accounting software,3375.27,Software and Tools,Software Subscription Expense
+T071,U001,Credit card balance payment,2351.53,Credit Card Payment,Liabilities
+T079,U004,Product prototype development cost,1847.55,Research and Development,Research and Development Expenses
+T080,U005,Credit card balance payment,238.07,Credit Card Payment,Liabilities
+T085,U005,Shipped office equipment,4143.37,Shipping and Delivery,Office Equipment Expense
+T087,U002,Shipped product to customer,3131.01,Shipping and Delivery,Sales Revenue
+T088,U003,Business workshop attendance fee,1407.58,Education,Training and Development Expenses
+T090,U005,Dinner meeting,1711.73,Meals and Entertainment,Meals and Entertainment
+T091,U001,Paid employee healthcare benefits,2910.67,Employee Benefits,Employee Benefits Expense
+T094,U004,Team building event cost,2922.68,Employee Benefits,Employee Training and Development
+T098,U003,Vendor payment,2131.83,Vendor Payments,Accounts Payable
+T099,U004,Renewed software license,4490.86,Software and Tools,Software Expenses
+T100,U005,Shipped product to customer,1841.97,Shipping and Delivery,Sales Revenue
