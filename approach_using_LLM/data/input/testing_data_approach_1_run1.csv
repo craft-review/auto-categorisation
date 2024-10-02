@@ -1,101 +1,101 @@
-TransactionID,UserID,Description,Amount,Category
-T001,U001,Corporate flight for work,232.67,Travel
-T002,U002,Settled power utility bill,398.71,Utilities
-T003,U003,Real estate tax payment,2945.51,Property Tax
-T004,U004,Enrolled in an online training course,4600.92,Education
-T005,U005,Paid fine for parking violation,335.29,Tolls
-T006,U001,Hotel booking for business trip,54.22,Hotel
-T007,U002,Customer product shipment charges,495.98,Shipping and Delivery
-T008,U003,Payment for freelance contractors,2016.05,Contractor Payments
-T009,U004,Fee for advisory services,3847.24,Consulting
-T010,U005,Company flight expense,4421.33,Travel
-T011,U001,Maintenance of tech equipment,1947.65,Repairs
-T012,U002,Registered for an online course,1235.4,Education
-T013,U003,Employee travel expense reimbursement,3754.54,Employee Benefits
-T014,U004,Charges for shipping goods to clients,2265.39,Shipping and Delivery
-T015,U005,Attorney fee payment,4263.44,Legal Fees
-T016,U001,Paid mobile phone bill,3900.27,Telecommunications
-T017,U002,Healthcare coverage payment for employees,2210.64,Employee Benefits
-T018,U003,Business travel flight,4106.15,Travel
-T019,U004,Paid for business dinner,2412.72,Meals and Entertainment
-T020,U005,Purchase of office seating,216.08,Office Supplies
-T021,U001,Paid for electricity services,2812.61,Utilities
-T022,U002,Paid company tax liability,958.91,Income Tax
-T023,U003,Accounting software subscription renewal,264.43,Software and Tools
-T024,U004,Lodging expense for company trip,3255.98,Hotel
-T025,U005,Expense for product prototype creation,2211.03,Research and Development
-T026,U001,Company vehicle gas expense,1771.25,Fuel
-T027,U002,Interest payment on business loan,4174.11,Loan Payments
-T028,U003,Uber fare for client meeting,296.23,Transportation
-T029,U004,Tax payment on sales,3604.55,Sales Tax
-T030,U005,Hotel bill for official travel,2409.73,Hotel
-T031,U001,Reimbursed business meal expense,3609.73,Reimbursements
-T032,U002,Shipping costs for customer products,848.26,Shipping and Delivery
-T033,U003,Renewed business insurance coverage,4215.56,Insurance
-T034,U004,Fuel costs for company vehicle,197.32,Fuel
-T035,U005,Contractor salaries disbursed,4691.77,Contractor Payments
-T036,U001,Gas refill for business car,3239.01,Fuel
-T037,U002,Settled electric company invoice,482.37,Utilities
-T038,U003,Rideshare service payment,4500.83,Transportation
-T039,U004,Payment for bookkeeping software,4651.81,Software and Tools
-T040,U005,Consultant invoice paid,3921.11,Consulting
-T041,U001,Shipment of office machines,2974.11,Shipping and Delivery
-T042,U002,VAT payment for business,2423.53,Sales Tax
-T043,U003,Technical equipment servicing,1918.46,Repairs
-T044,U004,Freelancer payment for services,2603.74,Contractor Payments
-T045,U005,Loan interest payment,1295.43,Loan Payments
-T046,U001,Corporate dinner with clients,4270.45,Meals and Entertainment
-T047,U002,Freight costs for customer shipments,4491.55,Shipping and Delivery
-T048,U003,Paid advisory fee,1942.51,Consulting
-T049,U004,Office cleaning service charge,770.79,Cleaning Services
-T050,U005,Subscription to finance software,4399.75,Software and Tools
-T051,U001,Attended business training seminar,3036.61,Education
-T052,U002,Corporate gift purchase,3797.79,Gifts
-T053,U003,Company income tax paid,4466.77,Income Tax
-T054,U004,Interest payment on loan,522.44,Loan Payments
-T055,U005,Consulting fee settlement,390.56,Consulting
-T056,U001,Tax remittance for sales,2628.13,Sales Tax
-T057,U002,Paid corporate tax liability,410.06,Income Tax
-T058,U003,Reimbursed corporate meal expense,4043.04,Reimbursements
-T059,U004,Team building event costs,4973,Employee Benefits
-T060,U005,Airfare for corporate travel,2891.58,Travel
-T061,U001,Settled parking fine,3001.96,Tolls
-T062,U002,Expense for product research,654.84,Research and Development
-T063,U003,Rental car for official use,4699.12,Transportation
-T064,U004,Repair of IT equipment,1267.87,Repairs
-T065,U005,Fuel refill for company vehicle,260.36,Fuel
-T066,U001,Paid subscription for accounting tools,3375.27,Software and Tools
-T067,U002,Employee payroll disbursement,1554.05,Employee Salaries
-T068,U003,Flight ticket for work purposes,1612.98,Travel
-T069,U004,Website overhaul charges,304.28,Professional Services
-T070,U005,Rented car for business trip,4340.5,Transportation
-T071,U001,Payment for credit card balance,2351.53,Credit Card Payment
-T072,U002,Business loan interest payment,1897.85,Loan Payments
-T073,U003,Travel refund for employee,779.06,Reimbursements
-T074,U004,Paid electric bill,1472.9,Utilities
-T075,U005,Remitted sales tax,1597.58,Sales Tax
-T076,U001,Paid telephone services invoice,1724.93,Telecommunications
-T077,U002,Delivery fee for customer order,3229.41,Shipping and Delivery
-T078,U003,Paid rent for office space,3497.19,Rent or Mortgage
-T079,U004,Expense for product development,1847.55,Research and Development
-T080,U005,Credit card bill settlement,238.07,Credit Card Payment
-T081,U001,Hotel payment for corporate stay,730.77,Hotel
-T082,U002,Office rent payment,304.1,Rent or Mortgage
-T083,U003,Paid corporate tax bill,1550.26,Income Tax
-T084,U004,Web redesign project expenses,3926.01,Professional Services
-T085,U005,Office supplies shipping charges,4143.37,Shipping and Delivery
-T086,U001,Paid for legal advisory services,4851.05,Legal Fees
-T087,U002,Delivered product to client,3131.01,Shipping and Delivery
-T088,U003,Business conference attendance fee,1407.58,Education
-T089,U004,Customer order shipment,2217.33,Shipping and Delivery
-T090,U005,Meal expense for business dinner,1711.73,Meals and Entertainment
-T091,U001,Paid employee health benefits,2910.67,Employee Benefits
-T092,U002,Purchased office stationery,1469.19,Office Supplies
-T093,U003,Office rent payment,2299.9,Rent or Mortgage
-T094,U004,Expense for team-building event,2922.68,Employee Benefits
-T095,U005,Income tax remittance,2758.57,Income Tax
-T096,U001,Business lunch with client,2234.21,Meals and Entertainment
-T097,U002,Paid for business trip lodging,3856.69,Hotel
-T098,U003,Payment to vendor,2131.83,Vendor Payments
-T099,U004,Software license renewal fees,4490.86,Software and Tools
-T100,U005,Freight for product delivery,1841.97,Shipping and Delivery
+TransactionID,UserID,Description,Amount
+T001,U001,Corporate flight for work,232.67
+T002,U002,Settled power utility bill,398.71
+T003,U003,Real estate tax payment,2945.51
+T004,U004,Enrolled in an online training course,4600.92
+T005,U005,Paid fine for parking violation,335.29
+T006,U001,Hotel booking for business trip,54.22
+T007,U002,Customer product shipment charges,495.98
+T008,U003,Payment for freelance contractors,2016.05
+T009,U004,Fee for advisory services,3847.24
+T010,U005,Company flight expense,4421.33
+T011,U001,Maintenance of tech equipment,1947.65
+T012,U002,Registered for an online course,1235.4
+T013,U003,Employee travel expense reimbursement,3754.54
+T014,U004,Charges for shipping goods to clients,2265.39
+T015,U005,Attorney fee payment,4263.44
+T016,U001,Paid mobile phone bill,3900.27
+T017,U002,Healthcare coverage payment for employees,2210.64
+T018,U003,Business travel flight,4106.15
+T019,U004,Paid for business dinner,2412.72
+T020,U005,Purchase of office seating,216.08
+T021,U001,Paid for electricity services,2812.61
+T022,U002,Paid company tax liability,958.91
+T023,U003,Accounting software subscription renewal,264.43
+T024,U004,Lodging expense for company trip,3255.98
+T025,U005,Expense for product prototype creation,2211.03
+T026,U001,Company vehicle gas expense,1771.25
+T027,U002,Interest payment on business loan,4174.11
+T028,U003,Uber fare for client meeting,296.23
+T029,U004,Tax payment on sales,3604.55
+T030,U005,Hotel bill for official travel,2409.73
+T031,U001,Reimbursed business meal expense,3609.73
+T032,U002,Shipping costs for customer products,848.26
+T033,U003,Renewed business insurance coverage,4215.56
+T034,U004,Fuel costs for company vehicle,197.32
+T035,U005,Contractor salaries disbursed,4691.77
+T036,U001,Gas refill for business car,3239.01
+T037,U002,Settled electric company invoice,482.37
+T038,U003,Rideshare service payment,4500.83
+T039,U004,Payment for bookkeeping software,4651.81
+T040,U005,Consultant invoice paid,3921.11
+T041,U001,Shipment of office machines,2974.11
+T042,U002,VAT payment for business,2423.53
+T043,U003,Technical equipment servicing,1918.46
+T044,U004,Freelancer payment for services,2603.74
+T045,U005,Loan interest payment,1295.43
+T046,U001,Corporate dinner with clients,4270.45
+T047,U002,Freight costs for customer shipments,4491.55
+T048,U003,Paid advisory fee,1942.51
+T049,U004,Office cleaning service charge,770.79
+T050,U005,Subscription to finance software,4399.75
+T051,U001,Attended business training seminar,3036.61
+T052,U002,Corporate gift purchase,3797.79
+T053,U003,Company income tax paid,4466.77
+T054,U004,Interest payment on loan,522.44
+T055,U005,Consulting fee settlement,390.56
+T056,U001,Tax remittance for sales,2628.13
+T057,U002,Paid corporate tax liability,410.06
+T058,U003,Reimbursed corporate meal expense,4043.04
+T059,U004,Team building event costs,4973
+T060,U005,Airfare for corporate travel,2891.58
+T061,U001,Settled parking fine,3001.96
+T062,U002,Expense for product research,654.84
+T063,U003,Rental car for official use,4699.12
+T064,U004,Repair of IT equipment,1267.87
+T065,U005,Fuel refill for company vehicle,260.36
+T066,U001,Paid subscription for accounting tools,3375.27
+T067,U002,Employee payroll disbursement,1554.05
+T068,U003,Flight ticket for work purposes,1612.98
+T069,U004,Website overhaul charges,304.28
+T070,U005,Rented car for business trip,4340.5
+T071,U001,Payment for credit card balance,2351.53
+T072,U002,Business loan interest payment,1897.85
+T073,U003,Travel refund for employee,779.06
+T074,U004,Paid electric bill,1472.9
+T075,U005,Remitted sales tax,1597.58
+T076,U001,Paid telephone services invoice,1724.93
+T077,U002,Delivery fee for customer order,3229.41
+T078,U003,Paid rent for office space,3497.19
+T079,U004,Expense for product development,1847.55
+T080,U005,Credit card bill settlement,238.07
+T081,U001,Hotel payment for corporate stay,730.77
+T082,U002,Office rent payment,304.1
+T083,U003,Paid corporate tax bill,1550.26
+T084,U004,Web redesign project expenses,3926.01
+T085,U005,Office supplies shipping charges,4143.37
+T086,U001,Paid for legal advisory services,4851.05
+T087,U002,Delivered product to client,3131.01
+T088,U003,Business conference attendance fee,1407.58
+T089,U004,Customer order shipment,2217.33
+T090,U005,Meal expense for business dinner,1711.73
+T091,U001,Paid employee health benefits,2910.67
+T092,U002,Purchased office stationery,1469.19
+T093,U003,Office rent payment,2299.9
+T094,U004,Expense for team-building event,2922.68
+T095,U005,Income tax remittance,2758.57
+T096,U001,Business lunch with client,2234.21
+T097,U002,Paid for business trip lodging,3856.69
+T098,U003,Payment to vendor,2131.83
+T099,U004,Software license renewal fees,4490.86
+T100,U005,Freight for product delivery,1841.97
