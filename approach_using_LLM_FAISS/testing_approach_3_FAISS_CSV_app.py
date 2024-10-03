@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from sentence_transformers import SentenceTransformer
 import faiss
-from csv_handling.csv_storage import move_non_matching_categories, create_map_user_preferred_category
+from csv_handling.csv_storage import move_inaccurate_categories, create_map_user_preferred_category
 import json
 import pandas as pd
 from dotenv import load_dotenv
@@ -146,4 +146,4 @@ def update_all_personalised_categories(csv_file):
     print(f"Total cost: {total_cost}")
 
 update_all_personalised_categories(csv_file)
-move_non_matching_categories(output_csv_file, difference, user_category)
+move_inaccurate_categories(output_csv_file, difference, user_category)
