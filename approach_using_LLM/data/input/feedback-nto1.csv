@@ -1,0 +1,7 @@
+TransactionID,UserID,Description,Amount,PersonalisedCategory,FeedbackCategory
+T004,U004,Enrolled in an online training course,4600.92,Professional Development,Learning Expenses
+T094,U004,Expense for team-building event,2922.68,Corporate Event Expenses,Learning Expenses
+T078,U003,Paid rent for office space,3497.19,Office Space Rent,Rent Payments
+T082,U003,Office rent payment,304.10,Office Lease Payment,Rent Payments
+T008,U003,Payment for freelance contractors,2016.05,Contractor Salaries,Freelance Payments
+T035,U003,Contractor salaries disbursed,4691.77,Contractor Payroll,Freelance Payments

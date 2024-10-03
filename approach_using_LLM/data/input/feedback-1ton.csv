@@ -1,0 +1,6 @@
+TransactionID,UserID,Description,Amount,PersonalisedCategory,FeedbackCategory
+T017,U002,Healthcare payment for employees,2210.64,Employee Healthcare Coverage,Employee Healthcare
+T101,U002,Medical insurance premium for staff,2210.64,Employee Healthcare Coverage,Employee Healthcare
+T102,U002,Company health benefits payment,2210.64,Employee Healthcare Coverage,Employee Healthcare
+T091,U002,Paid employee health benefits,2910.67,Employee Healthcare Coverage,Healthcare Benefits
+T104,U002,Settled employee health insurance premiums,2910.67,Employee Healthcare Coverage,Healthcare Benefits
