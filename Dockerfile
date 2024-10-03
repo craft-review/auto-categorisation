@@ -17,7 +17,7 @@ ENV PYTHONPATH="/"
 
 # Specify the command to run your application
 # Replace 'app.py' with the entry point of your application
-CMD ["python", "approach_using_LLM/testing_LLM_run1_app.py"]
+CMD ["python", "explainability_app.py"]
 
 # Expose a port if your application requires it (optional)
 # EXPOSE 5000
