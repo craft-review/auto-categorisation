@@ -7,16 +7,26 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from sentence_transformers import SentenceTransformer
 import faiss
-from csv_handling.csv_storage import store_user_probable_category, move_inaccurate_categories
+from csv_handling.csv_storage import store_user_personalised_category, move_inaccurate_categories
 
 from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env (especially openai api key)
-file_path = "faiss_store_transactions_2.pkl"
+
+faiss_index_file_path = "faiss_store_transactions.pkl"
 training_csv_file = "data/testing_data_approach_4_run1.csv"
-testing_csv_file = "data/testing_data_approach_2_run1.csv"
+testing_csv_file = "data/testing_data_approach_2_run2.csv"
 output_file = "data/testing_data_approach_2_run2.csv"
 user_map = {'U001': 'Akhil', 'U002': 'Rahul', 'U003': 'Sachin', 'U004': 'Rohit', 'U005': 'Virat'}
+
+# Define the cost per 1000 tokens for each model
+model_cost_dict = {
+    "gpt-4o-mini-2024-07-18": 0.000750,
+    "gpt-4o-2024-08-06": 0.02000,
+}
+
+# initialize the model
+model = 'gpt-4o-mini'
 
 # load data
 # Function to extract fields from page_content
@@ -68,7 +78,7 @@ for document in data:
 time.sleep(2)
 
 # Save the FAISS index to a pickle file
-with open(file_path, "wb") as f:
+with open(faiss_index_file_path, "wb") as f:
     pickle.dump(faiss_index, f)
     # pickle.dump(vectorstore_openai, f)
 
@@ -80,7 +90,7 @@ User preferences: {user_categories}
 Provide only the best category name for this transaction without any explanation. If nothing matches, then categorize it as 'Other'
 """
 prompt = ChatPromptTemplate.from_template(prompt_template)
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, max_tokens=50, max_retries=1, verbose=True)
+llm = ChatOpenAI(model=model, temperature=0, max_tokens=100, max_retries=1, verbose=True)
 
 # Example function to categorize a transaction
 def generate_category(transaction_desc, user_categories=None):
@@ -106,8 +116,8 @@ def generate_category(transaction_desc, user_categories=None):
     
     return content, total_tokens, model_name
 
-if os.path.exists(file_path):
-    with open(file_path, "rb") as f:
+if os.path.exists(faiss_index_file_path):
+    with open(faiss_index_file_path, "rb") as f:
         vectorstore = pickle.load(f)
         total_tokens_used = 0
         loader = CSVLoader(testing_csv_file, source_column="UserID")
@@ -133,7 +143,7 @@ if os.path.exists(file_path):
             svec = np.concatenate((transaction_desc_vec, user_id_vec)).reshape(1, -1)
             
             distances, I = faiss_index.search(svec, 1)
-            print(distances, I)
+            print(f"Eucledian Distance: {distances[0][0]:.6f}, Index: {I[0][0]}")
 
             # I contains the index of the closest match in the FAISS index
             matched_index = I[0][0]  # Get the index of the best match
@@ -145,8 +155,8 @@ if os.path.exists(file_path):
             else:
                 print("No match found.")
 
-            store_user_probable_category(testing_csv_file, user_id, trx_desc_test, matched_category)
-        
+            store_user_personalised_category(testing_csv_file, user_id, trx_desc_test, matched_category, output_file)
+            print()
         total_cost = (total_tokens_used / 1000) * .03
-        print(total_cost)
+        print(f"Total cost: {total_cost:.6f}")
         move_inaccurate_categories(training_csv_file, output_file)

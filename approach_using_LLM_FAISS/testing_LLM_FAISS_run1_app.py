@@ -15,9 +15,9 @@ from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env (especially openai api key)
 
 user_category_cache = 'approach_using_LLM_FAISS/data/user_category.json'
-input_trx_csv_file = 'approach_using_LLM_FAISS/data/input/testing_data_approach_3_run1.csv'
-output_trx_csv_file = 'approach_using_LLM_FAISS/data/processed/testing_data_approach_3_run1_output.csv'
-recon_csv_file = 'approach_using_LLM_FAISS/data/recon/testing_data_approach_3_run1_mismatch.csv'
+input_trx_csv_file = 'approach_using_LLM_FAISS/data/input/testing_data_run1_synonymous_trx.csv'
+output_trx_csv_file = 'approach_using_LLM_FAISS/data/processed/testing_data_run1_synonymous_trx_output.csv'
+recon_csv_file = 'approach_using_LLM_FAISS/data/recon/testing_data_run1_synonymous_trx_recon.csv'
 eucledian_dist_threshold = 1.1
 
 # Define the cost per 1000 tokens for each model
@@ -135,7 +135,7 @@ def update_all_personalised_categories(input_trx_csv_file):
         category_svec = hugging_face_encoder.encode([llm_category])[0]
 
         distances, I = search_in_user_pickle(user_id, category_svec)
-        print(distances, I)
+        print(f"Eucledian Distance: {distances[0][0]:.6f}, Index: {I[0][0]}")
 
         # I contains the index of the closest match in the FAISS index
         matched_index = I[0][0]  # Get the index of the best match
@@ -150,12 +150,13 @@ def update_all_personalised_categories(input_trx_csv_file):
 
         # Add a new column to the DataFrame
         df.at[index, 'PersonalisedCategory'] = personalised_category
+        print()
 
     # Save the updated DataFrame to a new CSV file
     df.to_csv(output_trx_csv_file, index=False)
 
     total_cost = (total_tokens_used / 1000) * model_cost_dict[model_name]
-    print(f"Total cost: {total_cost}")
+    print(f"Total cost: {total_cost:.6f}")
 
 update_all_personalised_categories(input_trx_csv_file)
 move_inaccurate_categories(output_trx_csv_file, recon_csv_file, user_category_map)
