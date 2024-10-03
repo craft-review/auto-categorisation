@@ -1,63 +1,101 @@
-TransactionID,UserID,Description,Amount,Category,PersonalizedCategory,ProbableCategory
-T001,U001,Business trip flight,232.67,Travel,Business Travel,Lodging Expense
-T002,U002,Paid electricity bill,398.71,Utilities,Power Bill,Energy Bill
-T004,U004,Online course enrollment,4600.92,Education,Learning and Development,Distribution Costs
-T005,U005,Paid parking ticket,335.29,Tolls,Parking Fees,Gasoline Expense
-T006,U001,Hotel stay for business trip,54.22,Hotel,Lodging,Lodging Expense
-T007,U002,Shipped product to customer,495.98,Shipping and Delivery,Freight Costs,Office Purchases
-T008,U003,Salaries for contractors,2016.05,Contractor Payments,Freelance Wages,Rental Car Expense
-T009,U004,Consulting service fee,3847.24,Consulting,Advisory Services,Business Lodging
-T012,U002,Online course enrollment,1235.4,Education,Skill Development,Prototype Development Expense
-T014,U004,Shipped product to customer,2265.39,Shipping and Delivery,Distribution Costs,Customer Freight
-T016,U001,Phone service bill,3900.27,Telecommunications,Mobile Services,Power Expense
-T018,U003,Business trip flight,4106.15,Travel,Corporate Travel,Travel Expense Reimbursement
-T022,U002,Paid corporate income taxes,958.91,Income Tax,Corporate Tax,Business Tax
-T024,U004,Hotel stay for business trip,3255.98,Hotel,Business Lodging,Distribution Costs
-T025,U005,Product prototype development cost,2211.03,Research and Development,Prototype Testing,Gasoline Expense
-T026,U001,Gas for company car,1771.25,Fuel,Company Vehicle Fuel,Lodging Expense
-T027,U002,Paid loan interest,4174.11,Loan Payments,Interest Payments,Interest Charges
-T028,U003,Uber ride,296.23,Transportation,Rideshare Fare,Ride Service Expense
-T030,U005,Hotel stay for business trip,2409.73,Hotel,Business Accommodation,Airfare
-T031,U001,Reimbursement for business lunch,3609.73,Reimbursements,Lunch Reimbursement,Lodging Expense
-T032,U002,Shipped product to customer,848.26,Shipping and Delivery,Parcel Shipment,Office Purchases
-T035,U005,Salaries for contractors,4691.77,Contractor Payments,Outsourced Wages,Gasoline Expense
-T036,U001,Gas for company car,3239.01,Fuel,Automobile Fuel,Lodging Expense
-T039,U004,Subscription to accounting software,4651.81,Software and Tools,Bookkeeping Software,Software Renewal
-T040,U005,Paid consulting invoice,3921.11,Consulting,Professional Consulting,Attorney Fees
-T041,U001,Shipped office equipment,2974.11,Shipping and Delivery,Equipment Freight,Power Expense
-T042,U002,Sales tax payment,2423.53,Sales Tax,VAT Payment,Business Tax
-T044,U004,Salaries for contractors,2603.74,Contractor Payments,Freelance Salaries,Electric Bill
-T046,U001,Dinner meeting,4270.45,Meals and Entertainment,Client Dinner,Lodging
-T047,U002,Shipped product to customer,4491.55,Shipping and Delivery,Logistics Costs,Office Purchases
-T048,U003,Consulting service fee,1942.51,Consulting,Advisory Fee,Ride Service Expense
-T050,U005,Subscription to accounting software,4399.75,Software and Tools,Financial Software,Attorney Fees
-T052,U002,Client gift,3797.79,Gifts,Corporate Gift,Logistics Costs
-T055,U005,Paid consulting invoice,390.56,Consulting,Consultant Invoice,Attorney Fees
-T056,U001,Sales tax payment,2628.13,Sales Tax,Sales Tax Remittance,Lodging Expense
-T059,U004,Team building event cost,4973.0,Employee Benefits,Staff Event,Learning and Development
-T060,U005,Business trip flight,2891.58,Travel,Executive Travel,Airfare
-T061,U001,Paid parking ticket,3001.96,Tolls,Parking Violation Fee,Lodging Expense
-T063,U003,Car rental for business,4699.12,Transportation,Rental Car Expense,Travel Expense Reimbursement
-T064,U004,IT equipment maintenance,1267.87,Repairs,Technology Repairs,Facility Maintenance
-T066,U001,Subscription to accounting software,3375.27,Software and Tools,Finance Tools,Training Fees
-T068,U003,Business trip flight,1612.98,Travel,Air Travel,Travel Expense Reimbursement
-T069,U004,Website redesign,304.28,Professional Services,Website Update,Distribution Costs
-T070,U005,Car rental for business,4340.5,Transportation,Business Car Rental,Airfare
-T073,U003,Employee travel reimbursement,779.06,Reimbursements,Travel Refund,Travel Expense Reimbursement
-T075,U005,Sales tax payment,1597.58,Sales Tax,Sales Tax Payment,Federal Tax Payment
-T076,U001,Phone service bill,1724.93,Telecommunications,Phone Bill,Power Expense
-T077,U002,Shipping fee for customer order,3229.41,Shipping and Delivery,Delivery Fee,Freight Costs
-T078,U003,Monthly office rent,3497.19,Rent or Mortgage,Office Rent,Rental Car Expense
-T079,U004,Product prototype development cost,1847.55,Research and Development,Product Testing,Distribution Costs
-T082,U002,Monthly office rent,304.1,Rent or Mortgage,Workspace Rent,Travel Lodging
-T083,U003,Paid corporate income taxes,1550.26,Income Tax,Company Tax,Corporate Income Tax
-T084,U004,Website redesign,3926.01,Professional Services,Digital Redesign,Distribution Costs
-T085,U005,Shipped office equipment,4143.37,Shipping and Delivery,Hardware Shipment,Furniture Purchase
-T086,U001,Legal consultation fee,4851.05,Legal Fees,Legal Advice Fees,Lodging Expense
-T087,U002,Shipped product to customer,3131.01,Shipping and Delivery,Customer Delivery,Office Purchases
-T089,U004,Shipping fee for customer order,2217.33,Shipping and Delivery,Customer Freight,Distribution Costs
-T091,U001,Paid employee healthcare benefits,2910.67,Employee Benefits,Health Benefits,Lodging Expense
-T093,U003,Monthly office rent,2299.9,Rent or Mortgage,Business Rent,Rental Car Expense
-T094,U004,Team building event cost,2922.68,Employee Benefits,Team Event Costs,Learning and Development
-T096,U001,Lunch with client,2234.21,Meals and Entertainment,Client Meeting Lunch,Lodging
-T100,U005,Shipped product to customer,1841.97,Shipping and Delivery,Product Delivery,Sales Tax Payment
+TransactionID,UserID,Description,Amount,Category,PersonalizedCategory,ProbableCategory,PersonalisedCategory
+T001,U001,Booked flight for business conference,232.67,,,,Business Travel
+T002,U002,Electricity service payment,398.71,,,,Power Bill
+T003,U003,Settled property taxes,2945.51,,,,Real Estate Tax
+T004,U004,Enrolled in professional development course,4600.92,,,,Learning and Development
+T005,U005,Fined for parking infringement,335.29,,,,Parking Fees
+T006,U001,Hotel reservation for work trip,54.22,,,,Lodging
+T007,U002,Shipping costs for client goods,495.98,,,,Delivery Fee
+T008,U003,Contractor wage disbursement,2016.05,,,,Freelance Wages
+T009,U004,Consultancy service charges,3847.24,,,,Advisory Services
+T010,U005,Flight expense for corporate seminar,4421.33,,,,Airfare
+T011,U001,Technical support and repairs,1947.65,,,,IT Maintenance
+T012,U002,Registered for e-learning program,1235.4,,,,Skill Development
+T013,U003,Reimbursement for travel-related expenses,3754.54,,,,Travel Expense Reimbursement
+T014,U004,Delivery costs for products to customers,2265.39,,,,Customer Freight
+T015,U005,Legal service payments,4263.44,,,,Attorney Fees
+T016,U001,Phone service fee settlement,3900.27,,,,Mobile Services
+T017,U002,Medical insurance for workforce,2210.64,,,,Health Insurance
+T018,U003,Company-funded airfare,4106.15,,,,Travel Expense Reimbursement
+T019,U004,Corporate dinner expenses,2412.72,,,,Business Dinner
+T020,U005,Procurement of office furniture,216.08,,,,Furniture Purchase
+T021,U001,Utility charges for electricity,2812.61,,,,Power Expense
+T022,U002,Corporate tax remittance,958.91,,,,Corporate Tax
+T023,U003,Renewed accounting software license,264.43,,,,Accounting Software Subscription
+T024,U004,Expense for employee accommodation,3255.98,,,,Business Lodging
+T025,U005,Cost for product prototype testing,2211.03,,,,Prototype Testing
+T026,U001,Fuel charge for corporate vehicle,1771.25,,,,Company Vehicle Fuel
+T027,U002,Interest on company loans,4174.11,,,,Interest Payments
+T028,U003,Ride-hailing charges for business,296.23,,,,Rental Car Expense
+T029,U004,Sales tax submission,3604.55,,,,Tax Remittance
+T030,U005,Accommodation for business travel,2409.73,,,,Business Accommodation
+T031,U001,Meal expense refund,3609.73,,,,Lunch Reimbursement
+T032,U002,Shipping cost for dispatched goods,848.26,,,,Delivery Fee
+T033,U003,Business insurance renewal payment,4215.56,,,,Insurance Premium
+T034,U004,Company car refueling costs,197.32,,,,Vehicle Fuel
+T035,U005,Contractor wage payment,4691.77,,,,Outsourced Wages
+T036,U001,Fuel refill for official vehicle,3239.01,,,,Company Vehicle Fuel
+T037,U002,Payment for electric utility service,482.37,,,,Power Bill
+T038,U003,App-based transportation payment,4500.83,,,,Supplier Payment
+T039,U004,Bookkeeping application fee,4651.81,,,,Bookkeeping Software
+T040,U005,Consultant fee settlement,3921.11,,,,Professional Consulting
+T041,U001,Shipping charges for office supplies,2974.11,,,,Equipment Freight
+T042,U002,Business VAT payment,2423.53,,,,VAT Payment
+T043,U003,IT hardware maintenance costs,1918.46,,,,Technology Maintenance
+T044,U004,Payment for freelance services,2603.74,,,,Advisory Services
+T045,U005,Interest payment for outstanding loans,1295.43,,,,Interest on Loan
+T046,U001,Dinner with business stakeholders,4270.45,,,,Client Dinner
+T047,U002,Freight expenses for delivered goods,4491.55,,,,Delivery Fee
+T048,U003,Paid consultancy invoice,1942.51,,,,Advisory Fee
+T049,U004,Cleaning service costs for office,770.79,,,,Facility Maintenance
+T050,U005,Subscription renewal for finance tools,4399.75,,,,Financial Software
+T051,U001,Attended leadership workshop,3036.61,,,,Client Dinner
+T052,U002,Purchased corporate gifts,3797.79,,,,Corporate Gift
+T053,U003,Tax payment for corporate profits,4466.77,,,,Corporate Income Tax
+T054,U004,Loan interest fee settlement,522.44,,,,Debt Interest
+T055,U005,Settled consultancy services invoice,390.56,,,,Professional Consulting
+T056,U001,Submitted tax for sales income,2628.13,,,,Sales Tax Remittance
+T057,U002,Paid taxes on company earnings,410.06,,,,Corporate Tax
+T058,U003,Refund for business meal expense,4043.04,,,,Business Meal Reimbursement
+T059,U004,Costs for team building activities,4973.0,,,,Staff Event
+T060,U005,Corporate flight tickets,2891.58,,,,Airfare
+T061,U001,Parking violation settlement,3001.96,,,,Parking Violation Fee
+T062,U002,Research expense for new product,654.84,,,,Prototype Development Expense
+T063,U003,Vehicle rental for official use,4699.12,,,,Rental Car Expense
+T064,U004,Maintenance fees for IT infrastructure,1267.87,,,,Technology Repairs
+T065,U005,Vehicle fuel expense,260.36,,,,Gasoline Expense
+T066,U001,Renewal of subscription for finance tools,3375.27,,,,Finance Tools
+T067,U002,Salaries disbursed to employees,1554.05,,,,Staff Wages
+T068,U003,Airfare for business purposes,1612.98,,,,Corporate Travel
+T069,U004,Cost for website redesign project,304.28,,,,Website Update
+T070,U005,Rental vehicle for corporate trip,4340.5,,,,Business Car Rental
+T071,U001,Settlement of credit card balance,2351.53,,,,Credit Card Settlement
+T072,U002,Interest remittance on business loan,1897.85,,,,Interest Payments
+T073,U003,Employee refund for travel expenses,779.06,,,,Travel Expense Reimbursement
+T074,U004,Electricity bill settlement,1472.9,,,,Electric Bill
+T075,U005,Payment for sales tax obligations,1597.58,,,,Sales Tax Payment
+T076,U001,Paid invoice for telephone services,1724.93,,,,Mobile Services
+T077,U002,Customer order delivery fee,3229.41,,,,Delivery Fee
+T078,U003,Office rent disbursement,3497.19,,,,Office Rent
+T079,U004,Development cost for new product,1847.55,,,,Product Testing
+T080,U005,Settled credit card dues,238.07,,,,Credit Card Bill
+T081,U001,Hotel stay payment for corporate use,730.77,,,,Lodging
+T082,U002,Monthly office rent settlement,304.1,,,,Workspace Rent
+T083,U003,Payment of corporate taxes,1550.26,,,,Corporate Income Tax
+T084,U004,Expenditure on web redesign,3926.01,,,,Website Update
+T085,U005,Shipping fees for office supplies,4143.37,,,,Hardware Shipment
+T086,U001,Legal counsel fees paid,4851.05,,,,Legal Advice Fees
+T087,U002,Delivered product shipment to client,3131.01,,,,Freight Costs
+T088,U003,Conference attendance cost,1407.58,,,,Workshop Fees
+T089,U004,Delivery costs for client orders,2217.33,,,,Customer Freight
+T090,U005,Dinner charges for business meeting,1711.73,,,,Dinner with Client
+T091,U001,Health insurance coverage for employees,2910.67,,,,Health Benefits
+T092,U002,Office supplies purchase,1469.19,,,,Office Purchases
+T093,U003,Office space rental payment,2299.9,,,,Office Rent
+T094,U004,Costs for employee team event,2922.68,,,,Staff Event
+T095,U005,Income tax payment for the fiscal year,2758.57,,,,Federal Tax Payment
+T096,U001,Lunch with prospective clients,2234.21,,,,Client Meeting Lunch
+T097,U002,Lodging for business trip,3856.69,,,,Travel Lodging
+T098,U003,Vendor payment for supplies,2131.83,,,,Supplier Payment
+T099,U004,Software licensing renewal fees,4490.86,,,,Software Renewal
+T100,U005,Freight cost for product shipping,1841.97,,,,Product Delivery

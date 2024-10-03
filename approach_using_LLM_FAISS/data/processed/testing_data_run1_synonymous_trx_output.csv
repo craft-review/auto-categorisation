@@ -1,0 +1,3 @@
+TransactionID,UserID,Description,Amount,PersonalisedCategory
+T001,U001,Business trip flight,232.67,Business Travel
+T002,U002,Paid electricity bill,398.71,Energy Bill
