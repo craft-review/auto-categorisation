@@ -15,7 +15,7 @@ COPY . .
 
 # Specify the command to run your application
 # Replace 'app.py' with the entry point of your application
-CMD ["python", "app.py"]
+CMD ["python", "explainability_app.py"]
 
 # Expose a port if your application requires it (optional)
 # EXPOSE 5000
