@@ -1,0 +1,5 @@
+TransactionID,UserID,Description,Amount,PersonalisedCategory,FeedbackCategory
+T095,U005,Income tax remittance,2758.57,Government Tax Payment,Tax Payments
+T075,U005,Remitted sales tax,1597.58,Government Tax Payment,Tax Payments
+T090,U001,Meal expense for business,1711.73,Client Lunch Meeting,Business Meals
+T096,U001,Business lunch with client,2234.21,Client Lunch Meeting,Business Meals
