@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from sentence_transformers import SentenceTransformer
 import faiss
-from csv_handling.csv_storage import store_user_probable_category, move_non_matching_categories
+from csv_handling.csv_storage import store_user_probable_category, move_inaccurate_categories
 
 from dotenv import load_dotenv
 
@@ -149,4 +149,4 @@ if os.path.exists(file_path):
         
         total_cost = (total_tokens_used / 1000) * .03
         print(total_cost)
-        move_non_matching_categories(training_csv_file, output_file)
+        move_inaccurate_categories(training_csv_file, output_file)

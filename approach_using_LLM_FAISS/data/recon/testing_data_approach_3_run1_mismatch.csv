@@ -1,1 +1,20 @@
 TransactionID,UserID,Description,Amount,PersonalisedCategory
+T004,U004,Online course enrollment,4600.92,Education Expenses
+T007,U002,Shipped product to customer,495.98,Sales Revenue
+T009,U004,Consulting service fee,3847.24,Professional Services Revenue
+T014,U004,Shipped product to customer,2265.39,Sales Revenue
+T017,U002,Paid employee healthcare benefits,2210.64,Employee Benefits Expense
+T020,U005,Purchased office chairs,216.08,Office Equipment
+T024,U004,Hotel stay for business trip,3255.98,Travel Expenses
+T032,U002,Shipped product to customer,848.26,Sales Revenue
+T047,U002,Shipped product to customer,4491.55,Sales Revenue
+T050,U005,Subscription to accounting software,4399.75,Software Subscription Expense
+T066,U001,Subscription to accounting software,3375.27,Software Subscription Expense
+T071,U001,Credit card balance payment,2351.53,Liabilities
+T080,U005,Credit card balance payment,238.07,Liabilities
+T085,U005,Shipped office equipment,4143.37,Office Equipment Expense
+T087,U002,Shipped product to customer,3131.01,Sales Revenue
+T090,U005,Dinner meeting,1711.73,Meals and Entertainment
+T091,U001,Paid employee healthcare benefits,2910.67,Employee Benefits Expense
+T098,U003,Vendor payment,2131.83,Accounts Payable
+T100,U005,Shipped product to customer,1841.97,Sales Revenue

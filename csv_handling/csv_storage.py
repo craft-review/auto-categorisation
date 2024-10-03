@@ -48,7 +48,7 @@ def store_user_personalised_category(csv_file, user_id, transaction_desc, catego
     else:
         print("No matching record found for UserID:", user_id, "Description:", transaction_desc)
 
-def move_non_matching_categories(output_csv_file, difference, user_category):
+def move_inaccurate_categories(output_csv_file, recon_csv_file, user_category_map):
     # Load the CSV into a DataFrame
     df = pd.read_csv(output_csv_file)
     
@@ -61,12 +61,15 @@ def move_non_matching_categories(output_csv_file, difference, user_category):
         category = row['PersonalisedCategory']
         
         # Check if the user exists in user_category and the category doesn't match
-        if user_id in user_category and category not in user_category[user_id]:
+        if user_id in user_category_map and category not in user_category_map[user_id]:
             # Append the row to the mismatched DataFrame
             mismatched_df = pd.concat([mismatched_df, pd.DataFrame([row])], ignore_index=True)
     
     # Save the mismatched records to a new CSV file
-    mismatched_df.to_csv(difference, index=False)
+    mismatched_df.to_csv(recon_csv_file, index=False)
     
-    # Print the success message
-    print(f"Mismatched records have been moved to {difference}")
+    # Print the success message and count the number of mismatched records
+    # print(f"Mismatched records have been moved to {recon_csv_file}")
+    print(f"Total inaccurate records: {len(mismatched_df)}")
+    # calculate accuracy percentage
+    print(f"Accuracy: {100 - (len(mismatched_df) / len(df) * 100)}%")
