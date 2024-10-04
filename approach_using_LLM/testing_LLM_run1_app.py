@@ -30,7 +30,7 @@ def update_all_personalised_categories(input_trx_csv_file):
         description = row['Description']
         
         # Generate a category using the LLM
-        personalised_category, tokens, model_name = generate_category(description, user_category_map.get(user_id), model="gpt-4o-mini")
+        personalised_category, tokens, model_name = generate_category(description, user_category_map.get(user_id), model="gpt-4o")
         print(personalised_category)
         total_tokens_used += tokens
 
