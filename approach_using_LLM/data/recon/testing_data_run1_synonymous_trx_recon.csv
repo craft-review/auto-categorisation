@@ -1,1 +1,3 @@
 TransactionID,UserID,Description,Amount,PersonalisedCategory
+T005,U005,Paid fine for parking violation,335.29,Other
+T085,U005,Office supplies shipping charges,4143.37,Other

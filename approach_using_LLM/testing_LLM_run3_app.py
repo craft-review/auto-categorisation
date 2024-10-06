@@ -31,7 +31,7 @@ def update_all_personalised_categories(input_trx_csv_file):
         
         # Generate a category using the LLM
         personalised_category, tokens, model_name = generate_category(description, user_category_map.get(user_id), model="gpt-4o")
-        print(personalised_category)
+        print(f"PersonalisedCategory: {personalised_category}, Transaction: {description}, UserID: {user_id}")
         total_tokens_used += tokens
 
         # Add a new column to the DataFrame

@@ -18,7 +18,7 @@ user_category_cache = 'approach_using_LLM_FAISS/data/user_category.json'
 input_trx_csv_file = 'approach_using_LLM_FAISS/data/input/testing_data_run3_distant_trx.csv'
 output_trx_csv_file = 'approach_using_LLM_FAISS/data/processed/testing_data_run3_distant_trx_output.csv'
 recon_csv_file = 'approach_using_LLM_FAISS/data/recon/testing_data_run3_distant_trx_recon.csv'
-eucledian_dist_threshold = 1.1
+eucledian_dist_threshold = .7
 
 # Define the cost per 1000 tokens for each model
 model_cost_dict = {
@@ -131,6 +131,7 @@ def update_all_personalised_categories(input_trx_csv_file):
         llm_category, total_tokens, model_name = generate_category(description)
         total_tokens_used += total_tokens
 
+        print(f"Transaction: {description}, UserID: {user_id}")
         print(f"LLMCategory: {llm_category}")
         category_svec = hugging_face_encoder.encode([llm_category])[0]
 
@@ -145,7 +146,7 @@ def update_all_personalised_categories(input_trx_csv_file):
         if distances[0][0] < eucledian_dist_threshold:
             print(f"PersonalisedCategory: {personalised_category}")
         else:
-            print(f"PersonalisedCategory: {personalised_category} updated to LLM category due to threshold breach:")
+            print(f"Due to threshold breach- PersonalisedCategory: {personalised_category} --> LLM category: {llm_category}")
             personalised_category = llm_category
 
         # Add a new column to the DataFrame
